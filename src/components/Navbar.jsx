@@ -30,27 +30,22 @@ const Navbar = () => {
 					<img
 						src={logowhite}
 						alt='logo'
-						className=' w-[100px] h-[60px] cursor-pointer max-[490px]:w-[124px] max-[490px]:h-[32px]'
+						className=' w-[100px] h-[90px]'
+						display='flex'
 					/>
 				</Link>
 
 				<div className=' flex items-center space-x-8  max-[750px]:space-x-0'>
 					<span className='flex flex-row w-1/4 items-center justify-center space-x-2 max-[750px]:hidden'>
-						{/* <button name='metric' className=' text-xl text-white font-light'>
-							&deg;
-						</button>
-						<p className='text-white text-xl mx-1'> |</p>
-						<button name='imperial' className=' text-xl text-white font-light'>
-							&deg;F
-						</button> */}
+				
 					</span>
 
-					<BiUserCircle
+					{/* <BiUserCircle
 						size={30}
 						color='white'
 						onClick={() => setToggle2(!toggle2)}
 						className='ml-2'
-					/>
+					/> */}
 
 					<div
 						className={`${

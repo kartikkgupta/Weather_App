@@ -27,7 +27,7 @@ const Forecast = ({ data, title }) => {
 						key={idx}
 						className=' flex flex-row max-[934px]:flex-col max-[934px]:justify-center justify-between text-center items-center border-[1px] py-4 px-8 w-full m-2 border-[#162b45] rounded-[40px] h-[200px] '
 					><p className='text-[#667689] font-light text-sm'>{forecastDays[idx]}</p>
-						<p className=''>23&deg;</p>
+						{/* <p className=''>23&deg;</p> */}
 
 						<img
 							src={`icons/${item.weather[0].icon}.svg`}
