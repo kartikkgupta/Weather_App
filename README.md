@@ -1,15 +1,8 @@
 # React Weather App - 
 
-<p align="center">
-    <img width="220"  src="src/assets/images/logo.png">
-</p>
 
-![Screenshot](src/assets/images/localhost_3000_.png)
-
-
-### Demo - Deployed over Github Pages 
-https://airawaree.web.app/
-
+### FOR Demo-
+https://weather-app-gamma-teal.vercel.app/
 
 ### APIs Used
 [Open Weather APIs](https://openweathermap.org/)
@@ -24,8 +17,7 @@ https://openweathermap.org/current
 ### Libraries used
 * `axios`
 
+### To install the app
+Step 1 npm install
+Step 2 npm start
 
-
-### How can I appreciate this repo? ###
-
-* By giving this repo a 🌟
